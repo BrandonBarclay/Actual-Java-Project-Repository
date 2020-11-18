@@ -44,7 +44,6 @@ public class newDistColumn {
         this.exportToCSV("DistillationColumnData.csv", trayPoints);
         System.out.println("Number of equilibrium stages: " + Math.ceil(this.numberOfTrays));
     }
-    // this was a git test
 
     public List<double[]> solveColumn(double feedTemp) {
 
